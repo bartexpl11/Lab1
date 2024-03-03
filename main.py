@@ -50,7 +50,7 @@ import sys
 # print(b + ' to wartosc liczby b')
 # print(type(b))
 
-# lista = [5, 6.6, 24, 'a', 'b', [2, 3, 4], 'ab']
+lista = [5, 6.6, 24, 'a', 'b', [2, 3, 4], 'ab']
 # print(lista)
 # lista.append(67)
 # print(lista)
@@ -93,11 +93,25 @@ import sys
 # else: # lub elif a == b
 #     print('a is equal to b')
 
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-if (a > b) & (c > d):
-    print(a, c)
-else:
-    print(b, d)
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# if (a > b) & (c > d):
+#     print(a, c)
+# else:
+#     print(b, d)
+
+# for i in range (1, 8, 2):
+#     print(i)
+# else:
+#     print('jesli petla dojdzie do konca petli')
+#
+# for i in lista:
+#     print(i)
+
+for i in range(0, 5):
+    for j in range(0, 5):
+        result = i + j
+        print(result)
+    print(' ')
