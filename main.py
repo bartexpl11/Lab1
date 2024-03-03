@@ -116,9 +116,31 @@ lista = [5, 6.6, 24, 'a', 'b', [2, 3, 4], 'ab']
 #         print(result)
 #     print(' ')
 
-licznik = 0
-while licznik < len(lista):
-    print(lista[licznik])
-    licznik += 1
-else:
-    print('gdy dojdzie do konca petli')
+# licznik = 0
+# while licznik < len(lista):
+#     print(lista[licznik])
+#     licznik += 1
+# else:
+#     print('gdy dojdzie do konca petli')
+
+# licznik = 0
+# while licznik != 10:
+#     if licznik == 7:
+#         print(licznik)
+#         break
+#     else:
+#         licznik += 1
+# else:
+#     print('licznik')
+
+list = [11,22,33,44,55,66,77]
+sys.stdout.write('wprowadz liczbe: ')
+a = sys.stdin.readline()
+a = int(a)
+i=0
+while i<len(list):
+    if a-list[i]==0:
+        print(i, list[i])
+        break
+    else:
+        i+=1
