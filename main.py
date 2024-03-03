@@ -50,20 +50,36 @@ import sys
 # print(b + ' to wartosc liczby b')
 # print(type(b))
 
-lista = [5, 6.6, 24, 'a', 'b', [2, 3, 4], 'abc']
-print(lista)
-lista.append(67)
-print(lista)
-lista.insert(2, 'c')
-print(lista)
-lista.extend([20, 11, 22])
-print(lista)
-lista.pop()
-print(lista)
-lista.pop(2)
-print(lista)
-lista.remove([2, 3, 4])
-print(lista)
-del lista[1]
-print(lista)
-del lista
+# lista = [5, 6.6, 24, 'a', 'b', [2, 3, 4], 'ab']
+# print(lista)
+# lista.append(67)
+# print(lista)
+# lista.insert(2, 'c')
+# print(lista)
+# lista.extend([20, 11, 22])
+# print(lista)
+# lista.pop()
+# print(lista)
+# lista.pop(2)
+# print(lista)
+# lista.remove([2, 3, 4])
+# print(lista)
+# del lista[1]
+# print(lista)
+# #del lista
+# print(lista)
+# lista.reverse()
+# print(lista)
+# #lista.sort()
+# print(lista)
+
+slownik = {'klucz': 'wartosc', 1: 2, 'a':5, 4: 'b'}
+print(slownik)
+print(slownik[4])
+slownik[6] = 45
+print(slownik)
+slownik.pop(1)
+print(slownik)
+print(slownik.keys())
+print(slownik.values())
+del slownik[6]
