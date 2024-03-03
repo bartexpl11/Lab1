@@ -110,8 +110,15 @@ lista = [5, 6.6, 24, 'a', 'b', [2, 3, 4], 'ab']
 # for i in lista:
 #     print(i)
 
-for i in range(0, 5):
-    for j in range(0, 5):
-        result = i + j
-        print(result)
-    print(' ')
+# for i in range(0, 5):
+#     for j in range(0, 5):
+#         result = i + j
+#         print(result)
+#     print(' ')
+
+licznik = 0
+while licznik < len(lista):
+    print(lista[licznik])
+    licznik += 1
+else:
+    print('gdy dojdzie do konca petli')
