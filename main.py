@@ -73,13 +73,31 @@ import sys
 # #lista.sort()
 # print(lista)
 
-slownik = {'klucz': 'wartosc', 1: 2, 'a':5, 4: 'b'}
-print(slownik)
-print(slownik[4])
-slownik[6] = 45
-print(slownik)
-slownik.pop(1)
-print(slownik)
-print(slownik.keys())
-print(slownik.values())
-del slownik[6]
+# slownik = {'klucz': 'wartosc', 1: 2, 'a':5, 4: 'b'}
+# print(slownik)
+# print(slownik[4])
+# slownik[6] = 45
+# print(slownik)
+# slownik.pop(1)
+# print(slownik)
+# print(slownik.keys())
+# print(slownik.values())
+# del slownik[6]
+
+# a = 5
+# b = 5
+# if a > b:
+#     print('a greater than b')
+# elif a < b:
+#     print('a less than b')
+# else: # lub elif a == b
+#     print('a is equal to b')
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+if (a > b) & (c > d):
+    print(a, c)
+else:
+    print(b, d)
